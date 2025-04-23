@@ -1,0 +1,87 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #006bb6; /* Knicks Blue */
+  color: #ffffff;
+}
+
+.site-header {
+  background-color: white; /* Dark background for contrast */
+  color: #f58426; /* Knicks Orange */
+  /* padding: 10px 20px; */
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  flex: 1;
+  text-align: center;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  transition: background 0.3s ease;
+  color: #f58426; /* Knicks Orange */
+  background-color: #1d1d1d;
+}
+
+/* Hover effect */
+.main-nav li a:hover {
+  background-color: #f58426; /* Knicks Orange */
+  color: #1d1d1d;
+}
+
+.content {
+  padding: 20px;
+}
+
+/* Footer */
+.site-footer {
+  background-color: white;
+  color: #f58426; /* Knicks Orange */
+  padding: 15px 20px;
+  font-weight: bold;
+  text-align: left;
+  position: relative;
+  left: 0;
+}
+
+/* Responsive: vertical nav on small screens */
+@media (max-width: 600px) {
+  body {
+    background-color: #f58426; /* Knicks Orange */
+    color: #1d1d1d;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-nav li {
+    width: 100%;
+  }
+
+  .main-nav li a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Large screen style */
+@media (min-width: 1024px) {
+  body {
+    background-color: blue; /* large screen color */
+  }
+}
