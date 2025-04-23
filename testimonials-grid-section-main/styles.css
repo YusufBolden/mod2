@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #edf2f8;
+  font-family: Barlow Semi Condensed;
+  line-height: 1.6;
+  padding: 2em;
+}
+
+.testimonial-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-bottom: o.25rem;
+}
+
+blockquote {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
