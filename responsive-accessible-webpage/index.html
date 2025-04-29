@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Accessible Design Co.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header with Nav -->
+    <header>
+      <nav class="navbar" aria-label="Main Navigation">
+        <div class="logo">
+          <img src="images/logo.png" alt="Company Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Inclusive Design. Lasting Impact</h1>
+            <p>Empowering all users through accessible design.</p>
+            <button>Learn How</button>
+          </div>
+          <div class="hero-image">
+            <img src="images/digital.jpg" alt="Hero image">
+          </div>
+        </div>
+      </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        We are a dedicated team passionate about helping our clients succeed.
+        Our expertise spans various industries and ensures tailored solutions
+        for each client.
+      </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <img src="images/colorBlind.jpg" alt="Colorblind Impaired" />
+          <h3>Colorblind Pal</h3>
+          <p>An app for Android, iOS and Mac that allows people with color blindness or color deficiency to see the colors around them.</p>
+        </div>
+        <div class="service-item">
+          <img src="images/hearingImpaired.png" alt="Hearing Impaired" />
+          <h3>Marketing</h3>
+          <p>Effective strategies for better reach.</p>
+        </div>
+        <div class="service-item">
+          <img src="images/digitalAccessibility.png" alt="Visibile Impaired" />
+          <h3>Support</h3>
+          <p>24/7 support for all your needs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form" aria-label="Contact Form" novalidate>
+        <div class="form-group">
+          <label for="name">Name<span aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            aria-required="true"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email<span aria-hidden="true">*</span></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-required="true"
+          />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject<span aria-hidden="true">*</span></label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+            aria-required="true"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Message<span aria-hidden="true">*</span></label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            aria-required="true"
+          ></textarea>
+        </div>
+        <button type="submit" id="submit-btn" disabled>Send Message</button>
+        <p id="form-message"></p>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; Accessible Design Co. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

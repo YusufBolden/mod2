@@ -19,6 +19,16 @@ body {
   margin: auto;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 .card-header {
   display: flex;
   align-items: center;
@@ -48,4 +58,17 @@ blockquote {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.details {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+}
 
+/* card colors */
+.purple {
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+}
+
+.gray {
+  background-color: hsl(217, 19%, 35%);
+}
