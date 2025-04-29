@@ -106,7 +106,7 @@ cd responsive-accessible-webpage
 
 Simply open the index.html file in your web browser to view the site locally.
 
-♿ Accessibility Features
+## ♿ Accessibility Features
 
     Semantic HTML5 elements (<header>, <nav>, <main>, <section>, <footer>)
 
@@ -130,7 +130,7 @@ Simply open the index.html file in your web browser to view the site locally.
 
     Add multi-language support.
 
-🌐 Live Demo
+## 🌐 Live Demo
 
 [Coming Soon]
 (Deployment instructions will be added if published on Vercel, Netlify, or GitHub Pages.)
