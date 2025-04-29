@@ -135,6 +135,6 @@ Simply open the index.html file in your web browser to view the site locally.
 [Coming Soon]
 (Deployment instructions will be added if published on Vercel, Netlify, or GitHub Pages.)
 
-📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
