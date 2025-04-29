@@ -120,7 +120,7 @@ Simply open the index.html file in your web browser to view the site locally.
 
     Smooth scrolling enabled for a better user experience.
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
     Animate the appearance of each section on scroll.
 
